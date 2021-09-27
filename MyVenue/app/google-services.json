@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "845829690174",
+    "firebase_url": "https://my-venue.firebaseio.com",
+    "project_id": "my-venue",
+    "storage_bucket": "my-venue.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845829690174:android:2f3ec0e24d6aba07ef126f",
+        "android_client_info": {
+          "package_name": "com.example.myvenue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845829690174-f0od3sllc6cf11osemoadjqdc34icdke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWxCxMDUIwyfNebEUWqjWeRg3b-EsWAEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845829690174-f0od3sllc6cf11osemoadjqdc34icdke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

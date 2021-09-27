@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myvenue">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/my"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/my"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".itemlist.ItemDetailsActivity" />
+        <activity android:name=".itemlist.ItemsListActivity" />
+        <activity android:name=".bookingpart.BookingsActivity" />
+        <activity android:name=".onboarding.SliderActivity" />
+        <activity
+            android:name=".maindashboard.DashBoardActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".bookingpart.AppointmentConfirmationActivity" />
+        <activity android:name=".ForgotPassword.Forgot_Password" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:screenOrientation="unspecified" />
+        <activity android:name=".signup.Sign_Up" />
+        <activity android:name=".facebooklogin.Facebook_Activity" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".bookingpart.BookingForm" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
